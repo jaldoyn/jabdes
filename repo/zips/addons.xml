@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.jabdes" name="Jabdes Wizard Repo" version="1.0.0" provider-name="JabDesign">
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="repository.jabdes" name="Jabdes Wizard Repo" version="1.0.0" provider-name="JabDesign">
 	<extension point="xbmc.addon.repository" name="Jabdes Repo">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/jaldoyn/jabdes/main/repo/zips/addons.xml</info>
@@ -10,11 +10,11 @@
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Jabdes Wizard Repo</summary>
 		<description lang="en">A Simple Configuration Wizard for Kodi</description>
-		<disclaimer></disclaimer>
+		<disclaimer />
 		<platform>all</platform>
 		<assets>
 				<icon>icon.png</icon>
 				<fanart>fanart.jpg</fanart>
 		</assets>
 	</extension>
-</addon>
+</addon></addons>
