@@ -1,0 +1,187 @@
+body {
+    background: url(../img/img-noise.png) #101010;
+    margin: 0;
+    padding: 0;
+}
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.svg-cnt {
+    width: 55%;
+}
+#circle {
+    display: none;
+}
+#jad_logo {
+    visibility: hidden;
+}
+.st0 {
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+}
+.st1 {
+    fill: #ED1C24;
+}
+.st2 {
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-width: 26;
+    stroke-miterlimit: 10;
+}
+.st3 {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 12;
+    stroke-miterlimit: 10;
+}
+.st4 {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 20;
+    stroke-miterlimit: 10;
+}
+.st5 {
+    fill: none;
+    stroke: #565656;
+    stroke-width: 5;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+}
+.social {
+}
+.signature {
+    visibility: hidden;
+    float: right;
+    width: 9%;
+    margin-left: 2em;
+}
+.st6 {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width:6;
+    stroke-linecap:round;
+    stroke-miterlimit:10;
+}
+.ico-cntr {
+    width: 21.4em;
+    float: right;
+}
+.ico-cntr a {
+    text-decoration: none;
+    margin: 0 1.3em;
+    color: #ed1c24;
+    transition: 1s;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+}
+.ico-cntr a:focus {
+    color: #ed1c24;
+    transition: 1s;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+}
+.ico-cntr a:hover {
+    color: #864a4d;
+    transition: 1s;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+}
+.ico-cntr a:active {
+    color: #8e1c21;
+    transition: 1s;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+}
+.ico-cntr a:first-child {
+    margin-left: 0;
+}
+.ico-cntr a:last-child {
+    margin-right: 0;
+}
+.sc-icon {
+    visibility: hidden;
+}
+.fa-stack-1x {
+    color: #FFFFFF;
+    font-size: 0.9em;
+}
+.fa-stack-2x {
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-device-width: 599px) and (min-device-width: 320px) {
+    .svg-cnt {
+        width: 100%;
+        padding: 0 25px;
+    }
+    .signature {
+        display: none;
+        visibility: hidden;
+        float: none;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .ico-cntr {
+        width: 100%;
+        float: none;
+    }
+    .ico-cntr a {
+        text-decoration: none;
+        margin: 0 .5em;
+    }
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 100px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    .svg-cnt {
+        width: 70%;
+        padding: 0 25px;
+    }
+}
+
+@media only screen and (min-device-width : 600px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    .svg-cnt {
+        width: 80%;
+        padding: 0 25px;
+    }
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
