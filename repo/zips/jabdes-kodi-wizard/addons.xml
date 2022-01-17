@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.jabdeswizard" name="[COLOR limegreen]Jabdes[/COLOR]Wizard" version="1.0.0" provider-name="drinfernoo">
+<addons>
+  <addon id="plugin.program.jabdeswizard" name="[COLOR limegreen]Jabdes[/COLOR]Wizard" version="1.0.0" provider-name="drinfernoo">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.requests" />
@@ -18,14 +19,15 @@
         <description lang="en">[COLOR limegreen]Jabdes[/COLOR]Wizard offers automated build installs.</description>
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
-        <source>https://jaldoyn.github.io/jabdes/repo/plugin.program.jabdeswizard</source>
+        <source>https://jaldoyn.github.io/jabdes/repo/zips/jabdes-kodi-wizard/plugin.program.jabdeswizard</source>
         <news>
-1.0.0
- - Initial Commit
+        1.0.0
+        - Initial Commit
         </news>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon>
+  </addon>
+</addons>
