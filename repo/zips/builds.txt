@@ -1,6 +1,6 @@
 id="plugin.program.jabdeswizard"
 version="1.0"
-zip="https://raw.githubusercontent.com/jaldoyn/jabdes/main/repo/zips/"
+zip="https://jaldoyn.github.io/jabdes/repo/zips/"
 
 name="Caron's Build"
 version="1.0"

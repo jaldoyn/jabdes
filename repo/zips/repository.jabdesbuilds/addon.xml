@@ -2,9 +2,9 @@
 <addon id="repository.jabdesbuilds" name="jabdesbuilds" version="1.0" provider-name="jabdesbuilds">
     <extension point="xbmc.addon.repository" name="jabdesbuilds repository">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/jaldoyn/jabdes/main/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jaldoyn/jabdes/main/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jaldoyn/jabdes/main/repo/zips/</datadir>
+            <info compressed="false">https://jaldoyn.github.io/jabdes/repo/zips/addons.xml</info>
+            <checksum>https://jaldoyn.github.io/jabdes/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://jaldoyn.github.io/jabdes/repo/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -13,8 +13,8 @@
         <disclaimer></disclaimer>
         <platform>all</platform>
         <assets>
-            <icon>https://raw.githubusercontent.com/jaldoyn/jabdes/main/repo/builds/icon-repo.png</icon>
-            <fanart>https://raw.githubusercontent.com/jaldoyn/jabdes/main/repo/builds/fanart.jpg</fanart>
+            <icon>https://jaldoyn.github.io/jabdes/repo/builds/icon-repo.png</icon>
+            <fanart>https://jaldoyn.github.io/jabdes/repo/builds/fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>
