@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<addons>
 <addon id="plugin.program.jabdeswizard" name="[COLOR limegreen][B]Jabdes[/B][/COLOR]Wizard" version="1.0" provider-name="jabdesigns">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.requests" />
         <import addon="script.module.six" />
     </requires>
-    
+
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>executable</provides>
     </extension>
-    
+
     <extension point="xbmc.service" library="startup.py" start="startup" />
-    
+
     <extension point="xbmc.addon.metadata">
         <summary lang="en">[COLOR limegreen][B]Jabdes[/B][/COLOR]Wizard</summary>
         <description lang="en">Wizard offers many maintenance features, selective add-on data saving, and automated build installs.</description>
@@ -23,31 +24,29 @@
          - Initial Commit
         </news>
         <assets>
-            <icon>https://raw.githubusercontent.com/jaldoyn/jabdes/repo/main/builds/icon.png</icon>
-            <fanart>https://raw.githubusercontent.com/jaldoyn/jabdes/repo/main/builds/fanart.jpg</fanart>
+            <icon>https://raw.githubusercontent.com/jaldoyn/jabdes/main/repo/builds/icon.png</icon>
+            <fanart>https://raw.githubusercontent.com/jaldoyn/jabdes/main/repo/builds/fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>
-<addons>
-    <addon id="repository.jabdesbuilds" name="jabdesbuilds" version="1.0" provider-name="jabdesbuilds">
-        <extension point="xbmc.addon.repository" name="jabdesbuilds repository">
-            <dir>
-                <info compressed="false">https://raw.githubusercontent.com/jaldoyn/jabdes/repo/main/zips/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/jaldoyn/jabdes/repo/main/zips/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/jaldoyn/jabdes/repo/main/zips/</datadir>
-            </dir>
-        </extension>
 
-        <extension point="xbmc.addon.metadata">
-            <summary>jabdesbuilds</summary>
-            <description>jabdesbuilds repository</description>
-            <disclaimer></disclaimer>
-            <platform>all</platform>
-            <assets>
-                <icon>https://raw.githubusercontent.com/jaldoyn/jabdes/repo/main/builds/icon-repo.png</icon>
-                <fanart>https://raw.githubusercontent.com/jaldoyn/jabdes/repo/main/builds/fanart.jpg</fanart>
-            </assets>
-        </extension>
-
-    </addon>
+<addon id="repository.jabdesbuilds" name="jabdesbuilds" version="1.0" provider-name="jabdesbuilds">
+    <extension point="xbmc.addon.repository" name="jabdesbuilds repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jaldoyn/jabdes/main/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jaldoyn/jabdes/main/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jaldoyn/jabdes/main/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>jabdesbuilds</summary>
+        <description>jabdesbuilds repository</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>https://raw.githubusercontent.com/jaldoyn/jabdes/main/repo/builds/icon-repo.png</icon>
+            <fanart>https://raw.githubusercontent.com/jaldoyn/jabdes/main/repo/builds/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
 </addons>
