@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.program.jabdeswizard" name="[COLOR limegreen][B]Jabdes[/B][/COLOR]Wizard" version="1.0" provider-name="jabdesigns">
     <requires>
-        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="xbmc.python" version="3.0.1" />
         <import addon="script.module.requests" />
         <import addon="script.module.six" />
     </requires>
