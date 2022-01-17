@@ -24,8 +24,8 @@
          - Initial Commit
         </news>
         <assets>
-            <icon>https://jaldoyn.github.io/jabdes/repo/builds/icon.png</icon>
-            <fanart>https://jaldoyn.github.io/jabdes/repo/builds/fanart.jpg</fanart>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>
@@ -35,7 +35,7 @@
         <dir>
             <info compressed="false">https://jaldoyn.github.io/jabdes/repo/zips/addons.xml</info>
             <checksum>https://jaldoyn.github.io/jabdes/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://jaldoyn.github.io/jabdes/repo/zips/</datadir>
+            <datadir zip="true">https://jaldoyn.github.io/jabdes/repo/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -44,8 +44,8 @@
         <disclaimer></disclaimer>
         <platform>all</platform>
         <assets>
-            <icon>https://jaldoyn.github.io/jabdes/repo/builds/icon-repo.png</icon>
-            <fanart>https://jaldoyn.github.io/jabdes/repo/builds/fanart.jpg</fanart>
+            <icon>icon-repo.png</icon>
+            <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>

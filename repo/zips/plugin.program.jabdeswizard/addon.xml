@@ -23,8 +23,8 @@
          - Initial Commit
         </news>
         <assets>
-            <icon>https://jaldoyn.github.io/jabdes/repo/builds/icon.png</icon>
-            <fanart>https://jaldoyn.github.io/jabdes/repo/builds/fanart.jpg</fanart>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>
